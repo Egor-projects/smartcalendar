@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,900&subset=cyrillic");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&subset=cyrillic');
+
+body {
+	padding: 0vh;
+	margin: 0vh;
+	background: white;
+}
+
+header {
+	background: Azure;
+	height: 6vh;
+	width: 100vw;
+	margin: 0;
+	display: inline-block;
+}
+
+.pm {
+	margin: 0;
+	width: 5 vw;
+	background: lightsteelblue;
+}
+
+.topval {
+	margin-top: 0.5vh;
+	width: 15 vw;
+	height: 5vh;
+	margin-left: 93vw;
+}
+
+.notes {
+	background: transparent;
+	border: none;
+	height: 100%;
+}
+
+.notes:hover {
+	cursor: pointer;
+}
+
+.calendar {
+	background: Azure;
+	width: 23vw;
+	height: 94vh;
+	display: inline-block;
+	float: left;
+
+}
+
+.changer {
+	margin-left: 55vw;
+	margin-top: 2vh;
+	width: 15vw;
+	height: 6vh;
+	float: top;
+}
+
+.pr {
+	margin-left: 0;
+	margin-top: 0;
+	width: 30%;
+	height: 100%;
+	float: left;
+	border-radius: 30%;
+	background: transparent;
+	border: none;
+	font-size: 200%;
+	cursor: pointer;
+}
+
+.fu {
+	margin-top: 0;
+	height: 100%;
+	width: 30%;
+	float: right;
+	border-radius: 30%;
+	background: transparent;
+	border: none;
+	font-size: 200%;
+	cursor: pointer;
+}
+
+.pr:hover, .fu:hover {
+	background: lightgrey;
+}
+
+.date {
+	margin-top: 1vh;
+	height: 100%;
+	float: left;
+	width: 40%;
+	text-align: center;
+	vertical-align: center;
+	font-size: 3.5vh;
+}
+
+.NewAction {
+	width: 15vw;
+	height: 6vh;
+	margin-left: 4vw;
+	margin-bottom: 3vh;
+	border-top-left-radius: 10px;
+  	border-top-right-radius: 10px;
+  	border-bottom-left-radius: 10px;
+  	border-bottom-right-radius: 10px;
+}
+
+.New {
+	width: 100%;
+	height: 100%;
+	background: palegreen;
+	border-top-left-radius: 10px;
+  	border-top-right-radius: 10px;
+  	border-bottom-left-radius: 10px;
+  	border-bottom-right-radius: 10px;
+  	cursor: pointer;
+}
+
+.New:hover {
+	background: springgreen;
+}
+
+.month {
+	height: 6vh;
+	width: 17vw;
+	margin-left: 3vw;
+	display: inline-block;
+	float: left;
+}
+
+.calenplace {
+	margin-left: 1vw;
+	height: 25vh;
+	width: 22vw;
+	display: inline-block;
+}
+
+.table {
+	width: 77vw;
+	height: 80vh;
+	float: left;
+}
+
+.form {
+	width: 30vw;
+	height: 40vh;
+	background: lightgreen;
+	margin-left: 40vw;
+}
+
+
+.formmain {
+	width: 60vw;
+	height: 70vh;
+	margin-left: 20vw;
+	margin-top: 15vh;
+	background: lightblue;
+}
+
+.bt {
+	background: red;
+}
+
+.time {
+	width: 20vw;
+}
+
+.todo {
+	width: 57vw;
+}
+
+.prevm {
+	margin-left: 0;
+	margin-top: 0;
+	width: 20%;
+	height: 100%;
+	float: left;
+	border-radius: 20%;
+	background: transparent;
+	border: none;
+	font-size: 200%;
+	cursor: pointer;
+
+}
+
+.monthname {
+	margin-top: 1vh;
+	height: 100%;
+	float: left;
+	width: 60%;
+	text-align: center;
+	vertical-align: center;
+	font-size: 3.5vh;
+}
+
+.futm {
+	margin-top: 0;
+	height: 100%;
+	width: 20%;
+	float: right;
+	border-radius: 20%;
+	background: transparent;
+	border: none;
+	font-size: 200%;
+	cursor: pointer;
+}
+
+
+
+.prevm:hover, .futm:hover {
+	background: lightgrey;
+}
